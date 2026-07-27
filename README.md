@@ -92,6 +92,8 @@ The trained model predicts whether the loan will be:
 ---
 
 # 📷 Application Screenshot
+image/Screenshot 2026-07-27 200401.png
+image/Screenshot 2026-07-27 200401.png
 
 # 📈 Machine Learning Workflow
 
