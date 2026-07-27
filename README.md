@@ -1,70 +1,35 @@
 # 🏦 Loan Approval Prediction System
 
-A Machine Learning web application that predicts whether a loan application is **Approved** or **Rejected** based on applicant details. The application is built using **Python, Scikit-learn, and Streamlit**, providing real-time predictions through an intuitive web interface.
+A Machine Learning web application that predicts whether a loan application will be Approved or Rejected based on applicant details.
+
+The application is built using **Python**, **LightGBM**, and **Streamlit**.
 
 ---
 
-## 📌 Project Overview
+# 📌 Features
 
-This project automates the loan approval prediction process using a trained Machine Learning model. Users can enter applicant information such as income, CIBIL score, education, employment status, loan amount, and asset values to instantly receive a prediction.
-
----
-
-## 🚀 Features
-
-- Interactive Streamlit Web Application
-- Real-time Loan Approval Prediction
-- Machine Learning-Based Classification
-- Feature Scaling and Label Encoding
-- Simple and User-Friendly Interface
-- Fast Prediction Results
-
----
-
-## 📊 Input Features
-
-- Number of Dependents
-- Education
-- Self Employed
-- Annual Income
-- Loan Amount
-- Loan Term
-- CIBIL Score
-- Residential Assets Value
-- Commercial Assets Value
-- Luxury Assets Value
-- Bank Asset Value
-
----
-
-## 🧠 Machine Learning Workflow
-
-- Data Collection
+- Predict Loan Approval
+- Simple and Interactive User Interface
+- Fast Predictions
+- Machine Learning Model
 - Data Preprocessing
-- Feature Engineering
-- Label Encoding
-- Feature Scaling
-- Model Training
-- Model Evaluation
-- Model Serialization using Joblib
-- Streamlit Deployment
+- Easy to Use
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠 Technologies Used
 
-| Technology | Purpose |
-|------------|---------|
-| Python | Programming Language |
-| Streamlit | Web Application |
-| Scikit-learn | Machine Learning |
-| Pandas | Data Processing |
-| NumPy | Numerical Computing |
-| Joblib | Model Serialization |
+- Python
+- Streamlit
+- LightGBM
+- Scikit-learn
+- Pandas
+- NumPy
+- Joblib
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
 loan-approval-prediction/
@@ -75,33 +40,31 @@ loan-approval-prediction/
 │── employment_encoder.pkl
 │── status_encoder.pkl
 │── columns (1).json
-│── requirements.txt
-│── README.md
 ```
 
 ---
 
-## ⚙️ Installation
+# 🚀 Installation
 
-### Clone the Repository
-
-```bash
-git clone https://github.com/your-username/loan-approval-prediction.git
-```
-
-### Navigate to the Project
+Clone the repository
 
 ```bash
-cd loan-approval-prediction
+git clone https://github.com/ARAGALAGOVARDHANREDDY/loan-prediction-app.git
 ```
 
-### Install Dependencies
+Go inside the project folder
+
+```bash
+cd loan-prediction-app
+```
+
+Install the required libraries
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run the Application
+Run the application
 
 ```bash
 streamlit run app.py
@@ -109,61 +72,58 @@ streamlit run app.py
 
 ---
 
-## 📸 Application Preview
+# 📊 Input Features
 
-### Home Page
+The application uses the following information:
 
-> Add a screenshot here
+- Age
+- Education
+- Employment Status
+- Annual Income
+- Loan Amount
+- Credit Score
+- Loan Term
 
-### Prediction Result
+The trained model predicts whether the loan will be:
 
-> Add a screenshot here
-
----
-
-## 📈 Prediction Output
-
-The application predicts one of the following:
-
-- ✅ Loan Approved
-- ❌ Loan Rejected
+- ✅ Approved
+- ❌ Rejected
 
 ---
 
-## 📌 Future Improvements
+# 📷 Application Screenshot
 
-- Hyperparameter Tuning
-- Model Explainability (SHAP)
-- Docker Deployment
-- Cloud Deployment (AWS/Azure/GCP)
-- User Authentication
-- Prediction History
-- Model Monitoring
+# 📈 Machine Learning Workflow
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Push to your branch
-5. Open a Pull Request
+1. Data Collection
+2. Data Cleaning
+3. Data Preprocessing
+4. Feature Encoding
+5. Feature Scaling
+6. Model Training
+7. Prediction
+8. Streamlit Deployment
 
 ---
 
-## 📄 License
+# 🔮 Future Improvements
 
-This project is licensed under the **MIT License**.
+- Better UI Design
+- SHAP Explainability
+- Model Comparison
+- Online Deployment
+- Database Integration
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-**Vishnu**
+**Aragala Govardhan Reddy**
 
-Machine Learning Enthusiast | Python Developer
+GitHub:
 
-⭐ If you found this project useful, consider giving it a star on GitHub.
+https://github.com/ARAGALAGOVARDHANREDDY
+
+---
+
+⭐ If you like this project, please give it a Star.
