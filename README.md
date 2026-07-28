@@ -5,16 +5,15 @@ A machine learning web application that predicts whether a loan application is l
 🚀 **Live Demo:** [Try the Loan Prediction App](https://loan-prediction-app-apg4dln7fdto45kare37gg.streamlit.app/)
 
 💻 **Source Code:** [GitHub Repository](https://github.com/ARAGALAGOVARDHANREDDY/loan-prediction-app)
-# 📌 Features
+## ✨ Features
 
-- Predict Loan Approval
-- Simple and Interactive User Interface
-- Fast Predictions
-- Machine Learning Model
-- Data Preprocessing
-- Easy to Use
-
----
+- 🤖 Machine learning-based loan approval prediction
+- 📝 Interactive applicant information form
+- 📊 Uses financial and applicant-related features
+- ⚡ Real-time prediction through Streamlit
+- 🔄 Automated preprocessing and feature encoding
+- 🌐 Deployed as a live web application
+- 📱 Simple and user-friendly interface
 
 # 🛠 Technologies Used
 
@@ -28,20 +27,24 @@ A machine learning web application that predicts whether a loan application is l
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```
-loan-approval-prediction/
-│── app.py
-│── loan_approval_model.pkl
-│── scaler.pkl
-│── education_encoder.pkl
-│── employment_encoder.pkl
-│── status_encoder.pkl
-│── columns (1).json
-```
-
----
+```text
+loan-prediction-app/
+│
+├── app.py
+├── loan_approval_model.pkl
+├── scaler.pkl
+├── education_encoder.pkl
+├── employment_encoder.pkl
+├── status_encoder.pkl
+├── columns.json
+├── loan_prediction_analysis.ipynb
+├── requirements.txt
+├── image/
+│   ├── home.png
+│   └── result.png
+└── README.md
 
 # 🚀 Installation
 
@@ -90,17 +93,15 @@ The trained model predicts whether the loan will be:
 
 ---
 
-# 📷 Application Screenshots
+## 📷 Application Screenshots
 
-## 🏠 Home Page
+### 🏠 Home Page
 
-![Home Page](image/home.png)
+![Loan Prediction App Home Page](image/home.png)
 
----
+### ✅ Prediction Result
 
-## ✅ Prediction Result
-
-![Prediction Result](image/prediction.png)
+![Loan Prediction Result](image/result.png)
 # 📈 Machine Learning Workflow
 
 1. Data Collection
@@ -114,15 +115,15 @@ The trained model predicts whether the loan will be:
 
 ---
 
-# 🔮 Future Improvements
+## 🔮 Future Improvements
 
-- Better UI Design
-- SHAP Explainability
-- Model Comparison
-- Online Deployment
-- Database Integration
-
----
+- 📊 Add prediction probability
+- 🔍 Add SHAP-based model explainability
+- 🤖 Compare multiple machine learning models
+- 🎨 Improve UI/UX
+- 🗄️ Add database integration
+- 📈 Add model performance dashboard
+- 🔄 Implement model monitoring and retraining
 
 # 👨‍💻 Author
 
