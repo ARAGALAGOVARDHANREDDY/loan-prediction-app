@@ -1,18 +1,10 @@
 # 🏦 Loan Approval Prediction System
 
-A Machine Learning web application that predicts whether a loan application will be Approved or Rejected based on applicant details.
+A machine learning web application that predicts whether a loan application is likely to be approved based on applicant and financial information.
 
-The application is built using **Python**, **LightGBM**, and **Streamlit**.
+🚀 **Live Demo:** [Try the Loan Prediction App](https://loan-prediction-app-apg4dln7fdto45kare37gg.streamlit.app/)
 
----
-
-# 🏦 Loan Prediction App
-
-A machine learning web application that predicts loan approval based on applicant information.
-
-## 🚀 Live Demo
-
-👉 [Open the Loan Prediction App](https://loan-prediction-app-apg4dln7fdto45kare37gg.streamlit.app/)
+💻 **Source Code:** [GitHub Repository](https://github.com/ARAGALAGOVARDHANREDDY/loan-prediction-app)
 # 📌 Features
 
 - Predict Loan Approval
