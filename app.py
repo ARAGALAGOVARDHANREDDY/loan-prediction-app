@@ -10,7 +10,7 @@ education_encoder = joblib.load("education_encoder.pkl")
 employment_encoder = joblib.load("employment_encoder.pkl")
 status_encoder = joblib.load("status_encoder.pkl")
 
-with open("columns (1).json", "r") as f:
+with open("columns.json", "r") as f:
     columns = json.load(f)
 st.set_page_config(
     page_title="Loan Approval Prediction",
