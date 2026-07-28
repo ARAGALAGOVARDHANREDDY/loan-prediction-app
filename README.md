@@ -6,6 +6,13 @@ The application is built using **Python**, **LightGBM**, and **Streamlit**.
 
 ---
 
+# 🏦 Loan Prediction App
+
+A machine learning web application that predicts loan approval based on applicant information.
+
+## 🚀 Live Demo
+
+👉 [Open the Loan Prediction App](https://loan-prediction-app-apg4dln7fdto45kare37gg.streamlit.app/)
 # 📌 Features
 
 - Predict Loan Approval
